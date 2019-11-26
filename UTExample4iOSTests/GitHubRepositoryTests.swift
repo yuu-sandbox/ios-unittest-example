@@ -8,6 +8,7 @@
 
 import XCTest
 @testable import UTExample4iOS
+import OHHTTPStubs
 
 class GithubRepositoryTests: XCTestCase {
     func testFetchGtihubRepositoryFullName() {
